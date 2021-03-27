@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/gvm.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Company A</h1>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact us</a></li>
+            </ul>
+            <form target="/search">
+                <input name="q" type="search" />
+                <input type="submit" />
+            </form>
+        </header>
+        <h1> Introduction</h1>
+        <section class="Problem">
+
+            <summary class="statement">
+                <h2>Project Statement</h2>
+                <p>The Game Club R US online application is an online membership tool that empower individuals with the
+                    tools needed to capture and track all past and current games within this. central tool. The tool has
+                    a vast data source providing by IGDB.COM providing rich information that gamers can enjoy such as
+                    extensive list of games, game platforms, past reviews, ratings, game artwork, character background
+                    stories, game cover, and much, much more.</p>
+                <p>Once enrolled, member will be able to build their own custom list of games based on their search
+                    preference. Once associated to their profile, members will be able to rate the games, review the
+                    rich content provided and also provide and exchange comments with other members about the games you
+                    are interested in.</p>
+                <p>As part of the roadmap, we plan on expanding sites to include streaming videos of game plays and the
+                    ability for members to upload custom covers and logos.</p>
+            </summary>
+            <article class="scope">
+                <h2>Project Scope</h2>
+                <p> The Game Club R US online application is an online membership tool that empowers individuals with
+                    the tools needed to capture and track all past and current games within this central tool. The tool
+                    has a vast data source providing by IGDB.COM providing rich information that gamers can enjoy such
+                    as extensive list of games, game platforms, past reviews, ratings, game artwork, character
+                    background stories, game cover, and much, much more. </p>
+            </article>
+            <article class="future">
+                <h2>Future Phases</h2>
+                <p> This 1.0 proof of concept application is designed to support up to 100 concurrent users on the
+                    platform with up to 1 million members. As adoption increase and funding becomes available, we will
+                    continue to iterate add new features and address defects identified. </p>
+                <p> Things we are hoping to incorporate into the the web application are as follow:</p>
+                <ul>
+                    <li>Full Integration for all popular external Authenticators</li>
+                    <li>Member Newsletters</li>
+                    <li>Live Chat Service for Gamers</li>
+                    <li>The ability to upload favorite Game art</li>
+                    <li>The ability to upload favorite game videos for sharing</li>
+                </ul>
+            </article>
+        </section>
+        <h1> Solution</h1>
+        <section class="solution">
+            <article>
+                <p>
+                    For our integrated development environment, we chose to use Visual Studio 2019 as the defacto tool.
+                    Main reason for this selection is as follow:
+                </p>
+                <ul>
+                    <li>We will develop an ASP.NET Core 3.0 web based application and Microsoft Visual Studio 2019 comes
+                        fully ready to support this effort </li>
+                    <li>Visual Studio 2019 is a full-featured integrated development environment</li>
+                    <li>Visual Studio has all the features that a developer might need during his application
+                        development process</li>
+                    <li>Azure Cloud integrations</li>
+                    <li>Test Development Integrations</li>
+                    <li>Easy to implement Debugging Tools and Break Points</li>
+                </ul>
+                <h2>Platform</h2>
+                <p>For the platform, we chose to develop on Windows platform to support ease and simplifcation of the
+                    team to pickup and manage. Moving away from Microsoft Windows and Visual Studio 019 may have led to
+                    issues pertaining to learning curve for team members participating in the project. The KISS
+                    principle applies here for this project. </p>
+                <h2>External Dependencies</h2>
+                <p>To acheive our goal, we need the ability to leverage external services to provide the rich content to
+                    power bring life to the site. </p>
+                <h3>IGDB</h3>
+                <p> IGDB.com is a video game online data source providing interface for external consumers to access
+                    data of all games and details for each game stored in a central location
+                </p>
+                <p>Through IGDB API, there are many endpoints used to return back specific data used supporting what is
+                    neede such as company name, game characters, expansion pack detail, game summary, online video,
+                    cover detail, game images, and much more.
+                    <br>
+                    For more details about the IGDB API, please visit the site <a
+                        href="https://api-docs.igdb.com/#about"> here.</a>
+                </p>
+                <h3>Google Identity</h3>
+                <p>We wanted to add a visibly trusted and secure Sign In With Google button to your app. This will
+                    provide the ability to authenticate and identify members and tear down the anonymous behaviour of
+                    the internet.</p>
+                <p>Users sign-in to a Google Account once, without re-entering username or password when visiting your
+                    site. On return visits sign users in automatically or with one click.</p>
+                <p>Through the Google's OAuth 2.0 APIs, We were able to conform to the OpenID Connect specificatione
+                    used for authentication and authorization.
+                    <br> For further detail, please visit the following Google Identity site <a
+                        href="https://developers.google.com/identity/"> here</a>.
+                </p>
+                <h3>External libraries</h3>
+                <p>One of the requirement we needed to fulfill is to leverage libraries to enhance the look and feel of
+                    the site. Below is a list of those libraries:</p>
+                <ul>
+                    <li><strong>SwiperJS:</Strong>
+                        <p>Swiper is the most modern free mobile touch slider. It is an external JS library, to power
+                            all of the sliders and carousels in the editor. Swiper has an extensive API which provides
+                            methods and events which can be utilized to control and manipulate the slider/carousel and
+                            its behavior.<br>
+                            For more information please visit the SwiperJS site <a
+                                href="https://swiperjs.com/">here</a>. </p>
+                    </li>
+                    <li><strong>jQuery Ajax:</Strong>
+                        <p>The jQuery library has a full suite of Ajax capabilities. The functions and methods therein
+                            allow us to load data from the server without a browser page refresh. <br>
+                            For more information please visit the <strong>jQuery Ajax</strong> site <a
+                                href="https://api.jquery.com/Jquery.ajax/">here</a>. </p>
+                    </li>
+                    <li><strong>Font Awesome:</Strong>
+                        <p>Font Awesome is a font and icon toolkit based on CSS and LESS. It was made by Dave Gandy for
+                            use with Twitter Bootstrap, and later was incorporated into the BootstrapCDN. <br>
+                            For more information please visit the <strong>Font Awesome</strong> site <a
+                                href="https://fontawesome.com/">here</a>. </p>
+                    </li>
+                    <li><strong>Bootstrap:</Strong>
+                        <p>Bootstrap is the popular HTML, CSS and JavaScript framework for developing a responsive and
+                            mobile friendly website. <br>
+                            For more information please visit the <strong>Bootstrap</strong> site <a
+                                href="https://www.bootstrapcdn.com/">here</a>. </p>
+                    </li>
+                    < </ul>
+            </article>
+            <h3>Team Synergy Journey</h3>
+            <article>
+                <p>
+                    The team came together to design a showcase our skills and design a web-based application based on
+                    the requirements provided. While building an awesome tool, we also hope to learn alot and share our
+                    experience with each other. Each team member comes with stengths that can be leveraged to build an
+                    awesome site. We met weekly discussing project status and next steps. We come together to vote on
+                    changes and discuss what is in scope and what was deferred for another time.
+                </p>
+            </article>
+            <h3>User Stories</h3>
+            <article>
+                <p>The user stories listed below capture what the site should accomplish.  The team and I reviewed and filter down a large list to the following to showcase the Game Club concept:</p>
+                <ol>                    
+                    <li>As a user, I want to be able to sign up as a new Game Club R Us member.</li>                    
+                    <li>As a member, I want to associate multiple gamer handles, if needed, to my membership profile
+                    </li>
+                    <li>As a member, I would like to search through a pre-defined list of games published for every
+                        platform.</li>
+                    <li>As a member, I want to filter list of games by game genre</li>
+                    <li>As a member, I want to filter list of games by keyword to identify specific games I care about
+                    </li>
+                    <li>As a member, I want to filter a return list by platform to identify specific games I care about
+                    </li>
+                    <li>As a member, I want to filter a return list by genre to identify specific games I care about
+                    </li>
+
+                    <li>As a member, I want to list games I have selected assigned to my profile</li>
+
+                    <li>As a member, I would like to write comments about each of the games to share my opinion and to
+                        have a dialog with other members.</li>
+                </ol>
+
+                <p> As a member, we strived to accomplish this task when delivering on the key features and functionalities of the web based members-only application.</p>
+            </article>
+            <h3>Activity Workflow</h3>
+            <article>
+                <p>Below is the application workflow members will take when accessing the site and using several of the site's features. </p>
+                <figure>  
+                    <img src="https://raw.githubusercontent.com/DrewBaby/MercuryMontego/main/ProjectImg/AvtivityFlow.png" alt="Activity Workflow" srcset="">
+                </figure>
+            </article>
+        </section>
+
+        <footer>
+        </footer>
+    </div>
+</body>
+
+</html>
