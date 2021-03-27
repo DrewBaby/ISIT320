@@ -1,0 +1,13 @@
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\bin\Debug\netcoreapp3.1\AsyncTest.exe
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\bin\Debug\netcoreapp3.1\AsyncTest.deps.json
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\bin\Debug\netcoreapp3.1\AsyncTest.runtimeconfig.json
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\bin\Debug\netcoreapp3.1\AsyncTest.runtimeconfig.dev.json
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\bin\Debug\netcoreapp3.1\AsyncTest.dll
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\bin\Debug\netcoreapp3.1\AsyncTest.pdb
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\obj\Debug\netcoreapp3.1\AsyncTest.AssemblyInfoInputs.cache
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\obj\Debug\netcoreapp3.1\AsyncTest.AssemblyInfo.cs
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\obj\Debug\netcoreapp3.1\AsyncTest.csproj.CoreCompileInputs.cache
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\obj\Debug\netcoreapp3.1\AsyncTest.dll
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\obj\Debug\netcoreapp3.1\AsyncTest.pdb
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\obj\Debug\netcoreapp3.1\AsyncTest.genruntimeconfig.cache
+C:\Users\IEUser\source\project\Testcode\AsyncTest\AsyncTest\obj\Debug\netcoreapp3.1\AsyncTest.csprojAssemblyReference.cache
